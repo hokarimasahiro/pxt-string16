@@ -5,6 +5,6 @@ basic.forever(function () {
         basic.showNumber(i)
         basic.showNumber(text.charCodeAt(i))
         basic.showNumber(i)
-        basic.showNumber(char.charCodeAt16(text, i))
+        basic.showNumber(char16.charCodeAt16(text, i))
     }
 })
