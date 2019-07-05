@@ -1,8 +1,8 @@
-//% weight=70 color=#1eb0f0 icon="\u3041" block="text"
-namespace text {
+//% weight=70 color=#1eb0f0 icon="\u3041" block="char"
+namespace char {
 
     //% shim=text::charcodeat16
-    function charcodeat16(s:string,n: number): number {
+    function charcodeat16(s: string, n: number): number {
         return 0;
     }
     /**
@@ -11,7 +11,7 @@ namespace text {
       * @param n data position, eg: 3
       */
     //% blockId=char_code_at16 block="char code at %n in %s by utf16"
-    export function charCodeAt16(s:string,n: number): number {
-        return (charcodeat16(s,n));
+    export function charCodeAt16(s: string, n: number): number {
+        return (charcodeat16(s, n));
     }
 }
